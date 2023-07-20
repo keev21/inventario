@@ -1,0 +1,37 @@
+body,html{
+	height: 100%;
+	width: 100%;
+    
+}
+
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login, 
+.main-container > .hero-body{
+
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+    background-color: #fefee3;
+}
+.form-inline{
+    display: inline-flex;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.column {
+    padding: 10px;
+}
